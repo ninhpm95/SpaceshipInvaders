@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     float speed = 0.07f;
     int numOfMovements = 0;    
     int maxNumOfMovements = 25;
+    int rand = 0;
 
     public GameObject enemy;
     public GameObject enemyProjectile;
@@ -17,7 +18,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        rand = Random.Range(-3, 3);
     }
 
     // Update is called once per frame
@@ -25,7 +26,7 @@ public class Enemy : MonoBehaviour
     {
         if (numOfMovements == maxNumOfMovements)
         {
-            transform.Translate(new Vector3(0, speed, 0));
+            transform.Translate(new Vector3(rand*speed, speed, 0));
             numOfMovements = -1;
             speed = -speed;
             timer = 0;
@@ -35,7 +36,7 @@ public class Enemy : MonoBehaviour
 
         if (timer > timeToMove && numOfMovements < maxNumOfMovements)
         {
-            transform.Translate(new Vector3(speed, 0, 0));
+            transform.Translate(new Vector3(speed, rand*speed, 0));
             timer = 0;
             numOfMovements++;
         }

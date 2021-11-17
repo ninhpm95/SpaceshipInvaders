@@ -1132,7 +1132,7 @@ PrefabInstance:
     - target: {fileID: 4203086764762944353, guid: 113a0a0fb885bc449aa0bfc13fbd119a,
         type: 3}
       propertyPath: m_Name
-      value: barrier (1)
+      value: lowerBarrier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 113a0a0fb885bc449aa0bfc13fbd119a, type: 3}
@@ -8089,7 +8089,7 @@ PrefabInstance:
     - target: {fileID: 4203086764762944353, guid: 113a0a0fb885bc449aa0bfc13fbd119a,
         type: 3}
       propertyPath: m_Name
-      value: barrier
+      value: upperBarrier
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 113a0a0fb885bc449aa0bfc13fbd119a, type: 3}
