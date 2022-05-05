@@ -6,4 +6,4 @@ Using easy controls: WASD to move, space to shoot... It's a very beginner friend
 Unity
 
 ### Screenshot
-![game](https://github.com/ninhpm95/SpaceshipInvaders/blob/master/SpaceshipInvader.png?raw=true)
+![game](https://github.com/ninhpm95/SpaceshipInvaders/blob/master/SpaceshipInvaders.png?raw=true)
