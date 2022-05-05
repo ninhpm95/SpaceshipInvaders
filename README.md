@@ -1,7 +1,9 @@
-# SpaceshipInvaders
-
-Inspired from the famous game "Chicken Invaders".
-
+### About
+Inspired by the famous game "Chicken Invaders".
 Using easy controls: WASD to move, space to shoot... It's a very beginner friendly game to play.
 
-This program needs Unity to run on.
+### Technology
+Unity
+
+### Screenshot
+![game](https://github.com/ninhpm95/SpaceshipInvaders/blob/master/SpaceshipInvader.png?raw=true)
